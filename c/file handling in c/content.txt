@@ -1,2 +1,0 @@
---Hi, this file is to demonstrate how to read contents of a file in C using file handling--
-----THIS PROGRAM WORKS ABSOLUTELY FINE----

@@ -1,4 +1,0 @@
-THIS program file is for program no25
-lab assignments 2
------Have a nice day-----
-check the duplicate.txt file to see if it is copied or not.

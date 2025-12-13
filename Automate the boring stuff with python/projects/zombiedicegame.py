@@ -1,2 +1,0 @@
-import zombiedice
-zombiedice.demo()

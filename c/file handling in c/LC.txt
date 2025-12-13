@@ -1,1 +1,0 @@
-hi,this txt file is created to demonstrate the conversion of lowercase to uppercase text in c using file handling.

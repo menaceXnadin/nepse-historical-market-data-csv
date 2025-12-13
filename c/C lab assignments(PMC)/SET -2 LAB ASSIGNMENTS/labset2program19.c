@@ -1,2 +1,0 @@
-/*passing array to the function using pointer
-and return array from a function using pointer*/
