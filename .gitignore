@@ -8,3 +8,6 @@
 # Don't ignore .gitignore itself
 !.gitignore
 
+# GitHub Actions workflow files
+.github/
+
