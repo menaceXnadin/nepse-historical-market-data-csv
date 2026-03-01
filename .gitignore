@@ -1,6 +1,9 @@
 # Ignore everything
 *
 
+# ML training folder (still in training phase - not ready for production)
+ml/
+
 # But not the data folder and its contents
 !data/
 !data/**
