@@ -1,0 +1,20 @@
+# Git LFS was previously enabled here with:
+#     *.csv filter=lfs diff=lfs merge=lfs -text
+#
+# It was removed on 2026-10-03. Two reasons:
+#
+# 1. LFS stored a brand-new full-size object every time a CSV changed. Appending
+#    one daily row to a 192 KB file uploaded all 192 KB again, for all 1,073
+#    files, every day. Measured: 189 KB per file per day under LFS versus
+#    0.24 KB with plain git - roughly 780x - because git deltas a changed file
+#    against its previous version while LFS has no such concept. That had grown
+#    .git/lfs to 7.1 GB for a 60 MB dataset.
+#
+# 2. This file was never committed. Git read it from the working tree at commit
+#    time, so the repository stored LFS pointers, but a fresh clone had no
+#    .gitattributes and therefore no LFS filter - so anyone cloning the repo
+#    received 134-byte pointer stubs instead of CSV files. The dataset was
+#    unusable outside the machine that produced it.
+#
+# The history was converted with `git lfs migrate export`, so every revision now
+# holds real CSV content.

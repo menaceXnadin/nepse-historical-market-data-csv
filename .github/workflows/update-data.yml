@@ -1,0 +1,67 @@
+# ============================================================================
+# DISABLED - scheduled trigger removed on purpose. Safe to delete this file.
+# ============================================================================
+# This workflow ran asyncmain.py, which does NOT agree with
+# asyncmain_incremental.py (the one auto-update.yml uses):
+#
+#   * asyncmain.py:38-40 globs "{SYMBOL}_*.csv" and DELETES every match before
+#     writing dated filenames like NABIL_2026_10_02_adjusted.csv.
+#   * asyncmain_incremental.py:88-97 then finds that dated file and renames it
+#     back to NABIL_adjusted.csv.
+#
+# Running both, 15 minutes apart, renamed ~1,073 files back and forth every day
+# and doubled the LFS churn. It also lacked `permissions: contents: write`, so on
+# a repo with read-only default workflow permissions its push failed anyway.
+#
+# auto-update.yml is the single source of truth. See docs/pipeline-audit.md
+# issues 1 and 8.
+# ============================================================================
+name: Update NEPSE Data (disabled)
+
+on:
+  # Schedule intentionally removed - see the banner above.
+  # Manual trigger retained so the old path can still be inspected/run by hand.
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run data collection script
+      run: |
+        python asyncmain.py
+    
+    - name: Configure git
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+    
+    - name: Commit and push changes
+      run: |
+        git add data/
+        # Only commit if there are changes
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update NEPSE data - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

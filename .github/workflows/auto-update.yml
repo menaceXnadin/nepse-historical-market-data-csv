@@ -1,0 +1,105 @@
+name: Auto-Update NEPSE Data
+
+on:
+  # Schedule: Run every day at 12:00 PM UTC (5:45 PM Nepal Time)
+  schedule:
+    - cron: '0 12 * * *'  # Adjust time as needed
+  
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+# Without this, a manual dispatch overlapping a scheduled run produces a
+# non-fast-forward push failure and one of the two runs is silently lost.
+concurrency:
+  group: nepse-data-update
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Required to push commits
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Full history for proper git operations
+        # CRITICAL: without lfs:true every data/*.csv checks out as a 3-line
+        # pointer stub. get_last_fetched_date() then finds no 'time' column,
+        # returns None, and the script takes the full-refetch branch for all
+        # ~1,312 series. See docs/pipeline-audit.md issue 7.
+        lfs: true
+    
+    - name: Skip non-trading days
+      run: |
+        # NEPSE trades Sunday-Thursday. Saturday is a guaranteed weekly holiday,
+        # so the run can only ever be a no-op.
+        DOW=$(date -u +%u)   # 1=Mon .. 7=Sun
+        if [ "$DOW" = "6" ]; then
+          echo "Saturday - NEPSE closed, skipping."
+          echo "skipped=true" >> $GITHUB_OUTPUT
+        else
+          echo "skipped=false" >> $GITHUB_OUTPUT
+        fi
+      id: tradingday
+    
+    - name: Set up Python
+      if: steps.tradingday.outputs.skipped != 'true'
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'  # Cache pip dependencies
+    
+    - name: Install dependencies
+      if: steps.tradingday.outputs.skipped != 'true'
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run NEPSE data fetch script
+      if: steps.tradingday.outputs.skipped != 'true'
+      run: |
+        echo "Starting NEPSE data fetch..."
+        python asyncmain_incremental.py
+        echo "Data fetch completed!"
+    
+    - name: Check for changes
+      id: check_changes
+      if: steps.tradingday.outputs.skipped != 'true'
+      run: |
+        # Stage only data/. A bare `git add .` would also stage whatever else the
+        # runner happens to produce.
+        git add data/
+        if ! git diff --staged --quiet; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "Changes detected:"
+          git diff --staged --stat | tail -20
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+          echo "No changes detected."
+        fi
+    
+    - name: Commit and push if changed
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git commit -m "Data update: $(date -u +'%B %d, %Y')"
+        git push
+    
+    - name: Summary
+      if: steps.tradingday.outputs.skipped != 'true'
+      run: |
+        echo "## NEPSE Data Update Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.check_changes.outputs.changes }}" == "true" ]; then
+          echo "✅ **Data updated and pushed successfully!**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "📊 Changes committed at: $(date)" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "ℹ️ **No new data available**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The data is already up to date." >> $GITHUB_STEP_SUMMARY
+        fi

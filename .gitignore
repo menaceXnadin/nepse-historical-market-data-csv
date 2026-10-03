@@ -1,0 +1,61 @@
+# Ignore everything
+*
+
+# ML training folder (still in training phase - not ready for production)
+ml/
+
+# But not the data folder and its contents
+!data/
+!data/**
+
+# Don't ignore .gitignore itself
+!.gitignore
+
+# GitHub Actions workflow files.
+# Both forms are needed: git cannot re-include a file whose parent directory is
+# still excluded, so `!.github/` alone leaves the contents unreachable.
+!.github/
+!.github/**
+
+# ---------------------------------------------------------------------------
+# Everything below is NEW. It was previously swallowed by the `*` rule above,
+# which meant the fetch scripts and the CI workflows were untracked and absent
+# from HEAD -- so a fresh clone could not run `pip install -r requirements.txt`
+# or either workflow at all. See docs/pipeline-audit.md issue 1.
+# ---------------------------------------------------------------------------
+
+# The fetchers, without which the repo is not reproducible
+!asyncmain_incremental.py
+!asyncmain.py
+!main.py
+!quarterly_reports.py
+!fix_csv_types.py
+!sectors.py
+!requirements.txt
+!setup_check.ps1
+!run_and_push.ps1
+!run_and_push.bat
+!deploy.ps1
+
+# Cached upstream universe + scratch output
+!sector.json
+
+# Agent-facing docs
+!AGENTS.md
+!CLAUDE.md
+!docs/
+!docs/**
+
+# Human-facing docs
+!README.md
+!AUTOMATION_GUIDE.md
+!QUICK_START.md
+
+# LFS pointer metadata must not be confused for data
+!.gitattributes
+
+# Local scratch that should still stay ignored even after the `*` is pierced
+*.tmp
+*.log
+__pycache__/
+.venv/

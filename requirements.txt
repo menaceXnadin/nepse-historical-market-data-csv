@@ -1,0 +1,9 @@
+# Runtime dependencies for the data fetchers.
+#
+# pandas was missing here, which meant `pip install -r requirements.txt` produced
+# an environment without it and every CI run would have died at
+# `import pandas as pd` in asyncmain_incremental.py. See docs/pipeline-audit.md
+# issue 1.
+
+httpx>=0.27,<1.0
+pandas>=2.0,<3.0
