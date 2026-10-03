@@ -1,0 +1,3562 @@
+[
+  {
+    "id": 9,
+    "stocks": [
+      {
+        "id": 90,
+        "symbol": "ACLBSL",
+        "can_trade": true
+      },
+      {
+        "id": 244,
+        "symbol": "ADLB",
+        "can_trade": false
+      },
+      {
+        "id": 108,
+        "symbol": "AKBSL",
+        "can_trade": false
+      },
+      {
+        "id": 92,
+        "symbol": "ALBSL",
+        "can_trade": true
+      },
+      {
+        "id": 277,
+        "symbol": "ANLB",
+        "can_trade": true
+      },
+      {
+        "id": 247,
+        "symbol": "AVYAN",
+        "can_trade": true
+      },
+      {
+        "id": 275,
+        "symbol": "BPW",
+        "can_trade": false
+      },
+      {
+        "id": 61,
+        "symbol": "CBBL",
+        "can_trade": true
+      },
+      {
+        "id": 239,
+        "symbol": "CYCL",
+        "can_trade": true
+      },
+      {
+        "id": 62,
+        "symbol": "DDBL",
+        "can_trade": true
+      },
+      {
+        "id": 248,
+        "symbol": "DLBS",
+        "can_trade": true
+      },
+      {
+        "id": 65,
+        "symbol": "FMDBL",
+        "can_trade": true
+      },
+      {
+        "id": 85,
+        "symbol": "FOWAD",
+        "can_trade": true
+      },
+      {
+        "id": 70,
+        "symbol": "GBLBS",
+        "can_trade": true
+      },
+      {
+        "id": 109,
+        "symbol": "GGBSL",
+        "can_trade": false
+      },
+      {
+        "id": 81,
+        "symbol": "GILB",
+        "can_trade": true
+      },
+      {
+        "id": 94,
+        "symbol": "GLBSL",
+        "can_trade": true
+      },
+      {
+        "id": 93,
+        "symbol": "GMFBS",
+        "can_trade": true
+      },
+      {
+        "id": 77,
+        "symbol": "HLBSL",
+        "can_trade": true
+      },
+      {
+        "id": 96,
+        "symbol": "ILBS",
+        "can_trade": true
+      },
+      {
+        "id": 206,
+        "symbol": "JALPA",
+        "can_trade": false
+      },
+      {
+        "id": 101,
+        "symbol": "JBLB",
+        "can_trade": true
+      },
+      {
+        "id": 79,
+        "symbol": "JSLBB",
+        "can_trade": true
+      },
+      {
+        "id": 255,
+        "symbol": "KLBS",
+        "can_trade": false
+      },
+      {
+        "id": 78,
+        "symbol": "KLBSL",
+        "can_trade": false
+      },
+      {
+        "id": 72,
+        "symbol": "KMCDB",
+        "can_trade": true
+      },
+      {
+        "id": 703,
+        "symbol": "KMFL",
+        "can_trade": false
+      },
+      {
+        "id": 74,
+        "symbol": "LLBS",
+        "can_trade": true
+      },
+      {
+        "id": 635,
+        "symbol": "MATRI",
+        "can_trade": true
+      },
+      {
+        "id": 82,
+        "symbol": "MERO",
+        "can_trade": true
+      },
+      {
+        "id": 102,
+        "symbol": "MKLB",
+        "can_trade": false
+      },
+      {
+        "id": 73,
+        "symbol": "MLBBL",
+        "can_trade": true
+      },
+      {
+        "id": 103,
+        "symbol": "MLBS",
+        "can_trade": true
+      },
+      {
+        "id": 100,
+        "symbol": "MLBSL",
+        "can_trade": true
+      },
+      {
+        "id": 75,
+        "symbol": "MMFDB",
+        "can_trade": false
+      },
+      {
+        "id": 87,
+        "symbol": "MSLB",
+        "can_trade": true
+      },
+      {
+        "id": 106,
+        "symbol": "NADEP",
+        "can_trade": true
+      },
+      {
+        "id": 107,
+        "symbol": "NAGRO",
+        "can_trade": false
+      },
+      {
+        "id": 241,
+        "symbol": "NESDO",
+        "can_trade": true
+      },
+      {
+        "id": 98,
+        "symbol": "NICLBSL",
+        "can_trade": true
+      },
+      {
+        "id": 64,
+        "symbol": "NLBBL",
+        "can_trade": false
+      },
+      {
+        "id": 80,
+        "symbol": "NMBMF",
+        "can_trade": true
+      },
+      {
+        "id": 83,
+        "symbol": "NMFBS",
+        "can_trade": true
+      },
+      {
+        "id": 633,
+        "symbol": "NMLBBL",
+        "can_trade": true
+      },
+      {
+        "id": 105,
+        "symbol": "NSEWA",
+        "can_trade": false
+      },
+      {
+        "id": 71,
+        "symbol": "NSLB",
+        "can_trade": false
+      },
+      {
+        "id": 60,
+        "symbol": "NUBL",
+        "can_trade": true
+      },
+      {
+        "id": 69,
+        "symbol": "RMDC",
+        "can_trade": false
+      },
+      {
+        "id": 84,
+        "symbol": "RSDC",
+        "can_trade": true
+      },
+      {
+        "id": 208,
+        "symbol": "RULB",
+        "can_trade": false
+      },
+      {
+        "id": 97,
+        "symbol": "SABSL",
+        "can_trade": false
+      },
+      {
+        "id": 110,
+        "symbol": "SAMAJ",
+        "can_trade": false
+      },
+      {
+        "id": 99,
+        "symbol": "SDLBSL",
+        "can_trade": true
+      },
+      {
+        "id": 256,
+        "symbol": "SHLB",
+        "can_trade": true
+      },
+      {
+        "id": 68,
+        "symbol": "SKBBL",
+        "can_trade": true
+      },
+      {
+        "id": 67,
+        "symbol": "SLBBL",
+        "can_trade": true
+      },
+      {
+        "id": 104,
+        "symbol": "SLBS",
+        "can_trade": false
+      },
+      {
+        "id": 91,
+        "symbol": "SLBSL",
+        "can_trade": true
+      },
+      {
+        "id": 86,
+        "symbol": "SMATA",
+        "can_trade": true
+      },
+      {
+        "id": 88,
+        "symbol": "SMB",
+        "can_trade": true
+      },
+      {
+        "id": 95,
+        "symbol": "SMFBS",
+        "can_trade": true
+      },
+      {
+        "id": 66,
+        "symbol": "SMFDB",
+        "can_trade": false
+      },
+      {
+        "id": 636,
+        "symbol": "SMPDA",
+        "can_trade": true
+      },
+      {
+        "id": 651,
+        "symbol": "SWASTIK",
+        "can_trade": true
+      },
+      {
+        "id": 63,
+        "symbol": "SWBBL",
+        "can_trade": true
+      },
+      {
+        "id": 235,
+        "symbol": "SWMF",
+        "can_trade": true
+      },
+      {
+        "id": 238,
+        "symbol": "ULBSL",
+        "can_trade": true
+      },
+      {
+        "id": 285,
+        "symbol": "UNLB",
+        "can_trade": true
+      },
+      {
+        "id": 89,
+        "symbol": "USLB",
+        "can_trade": true
+      },
+      {
+        "id": 76,
+        "symbol": "VLBS",
+        "can_trade": true
+      },
+      {
+        "id": 260,
+        "symbol": "WNLB",
+        "can_trade": true
+      }
+    ],
+    "name": "Microfinance",
+    "symbol": "MICROFINANCE",
+    "active": true,
+    "index": 31
+  },
+  {
+    "id": 7,
+    "stocks": [
+      {
+        "id": 114,
+        "symbol": "ALICL",
+        "can_trade": true
+      },
+      {
+        "id": 352,
+        "symbol": "CLI",
+        "can_trade": true
+      },
+      {
+        "id": 642,
+        "symbol": "CREST",
+        "can_trade": true
+      },
+      {
+        "id": 117,
+        "symbol": "GLICL",
+        "can_trade": false
+      },
+      {
+        "id": 640,
+        "symbol": "GMLI",
+        "can_trade": true
+      },
+      {
+        "id": 288,
+        "symbol": "HLI",
+        "can_trade": true
+      },
+      {
+        "id": 309,
+        "symbol": "ILI",
+        "can_trade": true
+      },
+      {
+        "id": 120,
+        "symbol": "JLI",
+        "can_trade": false
+      },
+      {
+        "id": 113,
+        "symbol": "LICN",
+        "can_trade": true
+      },
+      {
+        "id": 112,
+        "symbol": "NLIC",
+        "can_trade": true
+      },
+      {
+        "id": 111,
+        "symbol": "NLICL",
+        "can_trade": true
+      },
+      {
+        "id": 119,
+        "symbol": "PLI",
+        "can_trade": true
+      },
+      {
+        "id": 115,
+        "symbol": "PLIC",
+        "can_trade": true
+      },
+      {
+        "id": 447,
+        "symbol": "PMLI",
+        "can_trade": true
+      },
+      {
+        "id": 118,
+        "symbol": "RLI",
+        "can_trade": false
+      },
+      {
+        "id": 349,
+        "symbol": "RNLI",
+        "can_trade": true
+      },
+      {
+        "id": 279,
+        "symbol": "SJLIC",
+        "can_trade": true
+      },
+      {
+        "id": 122,
+        "symbol": "SLI",
+        "can_trade": true
+      },
+      {
+        "id": 116,
+        "symbol": "SLICL",
+        "can_trade": true
+      },
+      {
+        "id": 350,
+        "symbol": "SNLI",
+        "can_trade": true
+      },
+      {
+        "id": 292,
+        "symbol": "SRLI",
+        "can_trade": true
+      },
+      {
+        "id": 121,
+        "symbol": "ULI",
+        "can_trade": false
+      }
+    ],
+    "name": "Life Insurance",
+    "symbol": "LIFEINSU",
+    "active": true,
+    "index": 32
+  },
+  {
+    "id": 6,
+    "stocks": [
+      {
+        "id": 186,
+        "symbol": "CHDC",
+        "can_trade": true
+      },
+      {
+        "id": 182,
+        "symbol": "CIT",
+        "can_trade": true
+      },
+      {
+        "id": 207,
+        "symbol": "ENL",
+        "can_trade": true
+      },
+      {
+        "id": 359,
+        "symbol": "HATHY",
+        "can_trade": true
+      },
+      {
+        "id": 183,
+        "symbol": "HIDCL",
+        "can_trade": true
+      },
+      {
+        "id": 185,
+        "symbol": "NIFRA",
+        "can_trade": true
+      },
+      {
+        "id": 184,
+        "symbol": "NRN",
+        "can_trade": true
+      }
+    ],
+    "name": "Investment",
+    "symbol": "INVESTMENT",
+    "active": true,
+    "index": 34
+  },
+  {
+    "id": 3,
+    "stocks": [
+      {
+        "id": 47,
+        "symbol": "BFC",
+        "can_trade": true
+      },
+      {
+        "id": 51,
+        "symbol": "CFCL",
+        "can_trade": true
+      },
+      {
+        "id": 48,
+        "symbol": "GFCL",
+        "can_trade": true
+      },
+      {
+        "id": 54,
+        "symbol": "GMFIL",
+        "can_trade": true
+      },
+      {
+        "id": 46,
+        "symbol": "GUFL",
+        "can_trade": true
+      },
+      {
+        "id": 55,
+        "symbol": "ICFC",
+        "can_trade": true
+      },
+      {
+        "id": 52,
+        "symbol": "JFL",
+        "can_trade": true
+      },
+      {
+        "id": 58,
+        "symbol": "MFIL",
+        "can_trade": true
+      },
+      {
+        "id": 57,
+        "symbol": "MPFL",
+        "can_trade": true
+      },
+      {
+        "id": 45,
+        "symbol": "NFS",
+        "can_trade": true
+      },
+      {
+        "id": 49,
+        "symbol": "PFL",
+        "can_trade": true
+      },
+      {
+        "id": 56,
+        "symbol": "PROFL",
+        "can_trade": true
+      },
+      {
+        "id": 59,
+        "symbol": "RLFL",
+        "can_trade": true
+      },
+      {
+        "id": 53,
+        "symbol": "SFCL",
+        "can_trade": false
+      },
+      {
+        "id": 50,
+        "symbol": "SIFC",
+        "can_trade": true
+      }
+    ],
+    "name": "Finance",
+    "symbol": "FINANCE",
+    "active": true,
+    "index": 27
+  },
+  {
+    "id": 11,
+    "stocks": [
+      {
+        "id": 449,
+        "symbol": "HRL",
+        "can_trade": true
+      },
+      {
+        "id": 666,
+        "symbol": "JHAPA",
+        "can_trade": true
+      },
+      {
+        "id": 443,
+        "symbol": "MKCL",
+        "can_trade": true
+      },
+      {
+        "id": 198,
+        "symbol": "NRIC",
+        "can_trade": true
+      },
+      {
+        "id": 310,
+        "symbol": "NRM",
+        "can_trade": true
+      },
+      {
+        "id": 197,
+        "symbol": "NTC",
+        "can_trade": true
+      },
+      {
+        "id": 446,
+        "symbol": "NWCL",
+        "can_trade": true
+      },
+      {
+        "id": 644,
+        "symbol": "PURE",
+        "can_trade": true
+      },
+      {
+        "id": 648,
+        "symbol": "TTL",
+        "can_trade": true
+      }
+    ],
+    "name": "Others",
+    "symbol": "OTHERS",
+    "active": true,
+    "index": 20
+  },
+  {
+    "id": 1,
+    "stocks": [
+      {
+        "id": 21,
+        "symbol": "ADBL",
+        "can_trade": true
+      },
+      {
+        "id": 7,
+        "symbol": "BOKL",
+        "can_trade": false
+      },
+      {
+        "id": 23,
+        "symbol": "CBL",
+        "can_trade": false
+      },
+      {
+        "id": 25,
+        "symbol": "CCBL",
+        "can_trade": false
+      },
+      {
+        "id": 18,
+        "symbol": "CZBIL",
+        "can_trade": true
+      },
+      {
+        "id": 6,
+        "symbol": "EBL",
+        "can_trade": true
+      },
+      {
+        "id": 17,
+        "symbol": "GBIME",
+        "can_trade": true
+      },
+      {
+        "id": 26,
+        "symbol": "HBL",
+        "can_trade": true
+      },
+      {
+        "id": 11,
+        "symbol": "KBL",
+        "can_trade": true
+      },
+      {
+        "id": 10,
+        "symbol": "LBL",
+        "can_trade": true
+      },
+      {
+        "id": 311,
+        "symbol": "LSL",
+        "can_trade": true
+      },
+      {
+        "id": 9,
+        "symbol": "MBL",
+        "can_trade": true
+      },
+      {
+        "id": 24,
+        "symbol": "MEGA",
+        "can_trade": false
+      },
+      {
+        "id": 2,
+        "symbol": "NABIL",
+        "can_trade": true
+      },
+      {
+        "id": 452,
+        "symbol": "NABILP",
+        "can_trade": true
+      },
+      {
+        "id": 5,
+        "symbol": "NBB",
+        "can_trade": false
+      },
+      {
+        "id": 22,
+        "symbol": "NBL",
+        "can_trade": true
+      },
+      {
+        "id": 12,
+        "symbol": "NCCB",
+        "can_trade": false
+      },
+      {
+        "id": 8,
+        "symbol": "NICA",
+        "can_trade": true
+      },
+      {
+        "id": 27,
+        "symbol": "NIMB",
+        "can_trade": true
+      },
+      {
+        "id": 15,
+        "symbol": "NMB",
+        "can_trade": true
+      },
+      {
+        "id": 19,
+        "symbol": "PCBL",
+        "can_trade": true
+      },
+      {
+        "id": 16,
+        "symbol": "PRVU",
+        "can_trade": true
+      },
+      {
+        "id": 14,
+        "symbol": "SANIMA",
+        "can_trade": true
+      },
+      {
+        "id": 4,
+        "symbol": "SBI",
+        "can_trade": true
+      },
+      {
+        "id": 13,
+        "symbol": "SBL",
+        "can_trade": true
+      },
+      {
+        "id": 3,
+        "symbol": "SCB",
+        "can_trade": true
+      },
+      {
+        "id": 20,
+        "symbol": "SRBL",
+        "can_trade": false
+      }
+    ],
+    "name": "Banking",
+    "symbol": "BANKING",
+    "active": true,
+    "index": 18
+  },
+  {
+    "id": 4,
+    "stocks": [
+      {
+        "id": 667,
+        "symbol": "BANDIPUR",
+        "can_trade": true
+      },
+      {
+        "id": 196,
+        "symbol": "CGH",
+        "can_trade": true
+      },
+      {
+        "id": 293,
+        "symbol": "CITY",
+        "can_trade": true
+      },
+      {
+        "id": 675,
+        "symbol": "HFIN",
+        "can_trade": true
+      },
+      {
+        "id": 266,
+        "symbol": "KDL",
+        "can_trade": true
+      },
+      {
+        "id": 195,
+        "symbol": "OHL",
+        "can_trade": true
+      },
+      {
+        "id": 193,
+        "symbol": "SHL",
+        "can_trade": true
+      },
+      {
+        "id": 194,
+        "symbol": "TRH",
+        "can_trade": true
+      }
+    ],
+    "name": "Hotels",
+    "symbol": "HOTELS",
+    "active": true,
+    "index": 19
+  },
+  {
+    "id": 5,
+    "stocks": [
+      {
+        "id": 270,
+        "symbol": "AHL",
+        "can_trade": true
+      },
+      {
+        "id": 144,
+        "symbol": "AHPC",
+        "can_trade": true
+      },
+      {
+        "id": 162,
+        "symbol": "AKJCL",
+        "can_trade": true
+      },
+      {
+        "id": 152,
+        "symbol": "AKPL",
+        "can_trade": true
+      },
+      {
+        "id": 678,
+        "symbol": "APHL",
+        "can_trade": true
+      },
+      {
+        "id": 148,
+        "symbol": "API",
+        "can_trade": true
+      },
+      {
+        "id": 147,
+        "symbol": "BARUN",
+        "can_trade": true
+      },
+      {
+        "id": 282,
+        "symbol": "BEDC",
+        "can_trade": true
+      },
+      {
+        "id": 686,
+        "symbol": "BENI",
+        "can_trade": true
+      },
+      {
+        "id": 307,
+        "symbol": "BGWT",
+        "can_trade": true
+      },
+      {
+        "id": 652,
+        "symbol": "BHCL",
+        "can_trade": true
+      },
+      {
+        "id": 259,
+        "symbol": "BHDC",
+        "can_trade": true
+      },
+      {
+        "id": 237,
+        "symbol": "BHL",
+        "can_trade": true
+      },
+      {
+        "id": 267,
+        "symbol": "BHPL",
+        "can_trade": true
+      },
+      {
+        "id": 673,
+        "symbol": "BJHL",
+        "can_trade": true
+      },
+      {
+        "id": 202,
+        "symbol": "BNHC",
+        "can_trade": true
+      },
+      {
+        "id": 142,
+        "symbol": "BPCL",
+        "can_trade": true
+      },
+      {
+        "id": 650,
+        "symbol": "BUNGAL",
+        "can_trade": true
+      },
+      {
+        "id": 143,
+        "symbol": "CHCL",
+        "can_trade": true
+      },
+      {
+        "id": 155,
+        "symbol": "CHL",
+        "can_trade": true
+      },
+      {
+        "id": 445,
+        "symbol": "CKHL",
+        "can_trade": true
+      },
+      {
+        "id": 654,
+        "symbol": "DHEL",
+        "can_trade": true
+      },
+      {
+        "id": 151,
+        "symbol": "DHPL",
+        "can_trade": true
+      },
+      {
+        "id": 281,
+        "symbol": "DOLTI",
+        "can_trade": true
+      },
+      {
+        "id": 242,
+        "symbol": "DORDI",
+        "can_trade": true
+      },
+      {
+        "id": 254,
+        "symbol": "EHPL",
+        "can_trade": true
+      },
+      {
+        "id": 165,
+        "symbol": "GHL",
+        "can_trade": true
+      },
+      {
+        "id": 178,
+        "symbol": "GLH",
+        "can_trade": true
+      },
+      {
+        "id": 236,
+        "symbol": "GVL",
+        "can_trade": true
+      },
+      {
+        "id": 173,
+        "symbol": "HDHPC",
+        "can_trade": true
+      },
+      {
+        "id": 245,
+        "symbol": "HHL",
+        "can_trade": true
+      },
+      {
+        "id": 661,
+        "symbol": "HIMSTAR",
+        "can_trade": true
+      },
+      {
+        "id": 156,
+        "symbol": "HPPL",
+        "can_trade": true
+      },
+      {
+        "id": 169,
+        "symbol": "HURJA",
+        "can_trade": true
+      },
+      {
+        "id": 284,
+        "symbol": "IHL",
+        "can_trade": true
+      },
+      {
+        "id": 163,
+        "symbol": "JOSHI",
+        "can_trade": true
+      },
+      {
+        "id": 692,
+        "symbol": "KAHL",
+        "can_trade": true
+      },
+      {
+        "id": 306,
+        "symbol": "KBSH",
+        "can_trade": true
+      },
+      {
+        "id": 682,
+        "symbol": "KHPL",
+        "can_trade": true
+      },
+      {
+        "id": 150,
+        "symbol": "KKHC",
+        "can_trade": true
+      },
+      {
+        "id": 161,
+        "symbol": "KPCL",
+        "can_trade": true
+      },
+      {
+        "id": 174,
+        "symbol": "LEC",
+        "can_trade": true
+      },
+      {
+        "id": 656,
+        "symbol": "MABEL",
+        "can_trade": true
+      },
+      {
+        "id": 274,
+        "symbol": "MAKAR",
+        "can_trade": true
+      },
+      {
+        "id": 360,
+        "symbol": "MANDU",
+        "can_trade": true
+      },
+      {
+        "id": 204,
+        "symbol": "MBJC",
+        "can_trade": true
+      },
+      {
+        "id": 290,
+        "symbol": "MCHL",
+        "can_trade": true
+      },
+      {
+        "id": 351,
+        "symbol": "MEHL",
+        "can_trade": true
+      },
+      {
+        "id": 295,
+        "symbol": "MEL",
+        "can_trade": true
+      },
+      {
+        "id": 176,
+        "symbol": "MEN",
+        "can_trade": true
+      },
+      {
+        "id": 696,
+        "symbol": "MEPDL",
+        "can_trade": true
+      },
+      {
+        "id": 283,
+        "symbol": "MHCL",
+        "can_trade": true
+      },
+      {
+        "id": 252,
+        "symbol": "MHL",
+        "can_trade": true
+      },
+      {
+        "id": 167,
+        "symbol": "MHNL",
+        "can_trade": true
+      },
+      {
+        "id": 271,
+        "symbol": "MKHC",
+        "can_trade": true
+      },
+      {
+        "id": 286,
+        "symbol": "MKHL",
+        "can_trade": true
+      },
+      {
+        "id": 181,
+        "symbol": "MKJC",
+        "can_trade": true
+      },
+      {
+        "id": 369,
+        "symbol": "MMKJL",
+        "can_trade": true
+      },
+      {
+        "id": 361,
+        "symbol": "MSHL",
+        "can_trade": true
+      },
+      {
+        "id": 149,
+        "symbol": "NGPL",
+        "can_trade": true
+      },
+      {
+        "id": 157,
+        "symbol": "NHDL",
+        "can_trade": true
+      },
+      {
+        "id": 141,
+        "symbol": "NHPC",
+        "can_trade": true
+      },
+      {
+        "id": 203,
+        "symbol": "NYADI",
+        "can_trade": true
+      },
+      {
+        "id": 265,
+        "symbol": "PHCL",
+        "can_trade": true
+      },
+      {
+        "id": 160,
+        "symbol": "PMHPL",
+        "can_trade": true
+      },
+      {
+        "id": 168,
+        "symbol": "PPCL",
+        "can_trade": true
+      },
+      {
+        "id": 257,
+        "symbol": "PPL",
+        "can_trade": true
+      },
+      {
+        "id": 158,
+        "symbol": "RADHI",
+        "can_trade": true
+      },
+      {
+        "id": 303,
+        "symbol": "RAWA",
+        "can_trade": true
+      },
+      {
+        "id": 240,
+        "symbol": "RFPL",
+        "can_trade": true
+      },
+      {
+        "id": 250,
+        "symbol": "RHGCL",
+        "can_trade": true
+      },
+      {
+        "id": 146,
+        "symbol": "RHPC",
+        "can_trade": false
+      },
+      {
+        "id": 171,
+        "symbol": "RHPL",
+        "can_trade": true
+      },
+      {
+        "id": 258,
+        "symbol": "RIDI",
+        "can_trade": true
+      },
+      {
+        "id": 676,
+        "symbol": "RLEL",
+        "can_trade": true
+      },
+      {
+        "id": 159,
+        "symbol": "RRHP",
+        "can_trade": false
+      },
+      {
+        "id": 180,
+        "symbol": "RURU",
+        "can_trade": true
+      },
+      {
+        "id": 201,
+        "symbol": "SAHAS",
+        "can_trade": true
+      },
+      {
+        "id": 649,
+        "symbol": "SANVI",
+        "can_trade": true
+      },
+      {
+        "id": 249,
+        "symbol": "SGHC",
+        "can_trade": true
+      },
+      {
+        "id": 693,
+        "symbol": "SGHL",
+        "can_trade": true
+      },
+      {
+        "id": 179,
+        "symbol": "SHEL",
+        "can_trade": true
+      },
+      {
+        "id": 145,
+        "symbol": "SHPC",
+        "can_trade": true
+      },
+      {
+        "id": 262,
+        "symbol": "SIKLES",
+        "can_trade": true
+      },
+      {
+        "id": 672,
+        "symbol": "SIPD",
+        "can_trade": true
+      },
+      {
+        "id": 172,
+        "symbol": "SJCL",
+        "can_trade": true
+      },
+      {
+        "id": 674,
+        "symbol": "SKHEL",
+        "can_trade": true
+      },
+      {
+        "id": 677,
+        "symbol": "SKHL",
+        "can_trade": true
+      },
+      {
+        "id": 269,
+        "symbol": "SMH",
+        "can_trade": true
+      },
+      {
+        "id": 272,
+        "symbol": "SMHL",
+        "can_trade": true
+      },
+      {
+        "id": 273,
+        "symbol": "SMJC",
+        "can_trade": true
+      },
+      {
+        "id": 689,
+        "symbol": "SNORL",
+        "can_trade": true
+      },
+      {
+        "id": 687,
+        "symbol": "SOHL",
+        "can_trade": true
+      },
+      {
+        "id": 205,
+        "symbol": "SPC",
+        "can_trade": true
+      },
+      {
+        "id": 153,
+        "symbol": "SPDL",
+        "can_trade": true
+      },
+      {
+        "id": 253,
+        "symbol": "SPHL",
+        "can_trade": true
+      },
+      {
+        "id": 268,
+        "symbol": "SPL",
+        "can_trade": true
+      },
+      {
+        "id": 175,
+        "symbol": "SSHL",
+        "can_trade": true
+      },
+      {
+        "id": 276,
+        "symbol": "TAMOR",
+        "can_trade": true
+      },
+      {
+        "id": 209,
+        "symbol": "TPC",
+        "can_trade": true
+      },
+      {
+        "id": 685,
+        "symbol": "TPKHL",
+        "can_trade": true
+      },
+      {
+        "id": 305,
+        "symbol": "TSHL",
+        "can_trade": true
+      },
+      {
+        "id": 448,
+        "symbol": "TVCL",
+        "can_trade": true
+      },
+      {
+        "id": 251,
+        "symbol": "UHEWA",
+        "can_trade": true
+      },
+      {
+        "id": 330,
+        "symbol": "ULHC",
+        "can_trade": true
+      },
+      {
+        "id": 154,
+        "symbol": "UMHL",
+        "can_trade": true
+      },
+      {
+        "id": 177,
+        "symbol": "UMRH",
+        "can_trade": true
+      },
+      {
+        "id": 170,
+        "symbol": "UNHPL",
+        "can_trade": true
+      },
+      {
+        "id": 166,
+        "symbol": "UPCL",
+        "can_trade": true
+      },
+      {
+        "id": 164,
+        "symbol": "UPPER",
+        "can_trade": true
+      },
+      {
+        "id": 246,
+        "symbol": "USHEC",
+        "can_trade": true
+      },
+      {
+        "id": 334,
+        "symbol": "USHL",
+        "can_trade": true
+      },
+      {
+        "id": 444,
+        "symbol": "VLUCL",
+        "can_trade": true
+      },
+      {
+        "id": 688,
+        "symbol": "YMHL",
+        "can_trade": true
+      }
+    ],
+    "name": "Hydropower",
+    "symbol": "HYDRO",
+    "active": true,
+    "index": 21
+  },
+  {
+    "id": 8,
+    "stocks": [
+      {
+        "id": 187,
+        "symbol": "BNL",
+        "can_trade": true
+      },
+      {
+        "id": 189,
+        "symbol": "BNT",
+        "can_trade": true
+      },
+      {
+        "id": 694,
+        "symbol": "ECL",
+        "can_trade": true
+      },
+      {
+        "id": 314,
+        "symbol": "GCIL",
+        "can_trade": true
+      },
+      {
+        "id": 191,
+        "symbol": "HDL",
+        "can_trade": true
+      },
+      {
+        "id": 188,
+        "symbol": "NLO",
+        "can_trade": true
+      },
+      {
+        "id": 643,
+        "symbol": "OMPL",
+        "can_trade": true
+      },
+      {
+        "id": 679,
+        "symbol": "PCIL",
+        "can_trade": true
+      },
+      {
+        "id": 634,
+        "symbol": "RSML",
+        "can_trade": true
+      },
+      {
+        "id": 665,
+        "symbol": "SAGAR",
+        "can_trade": true
+      },
+      {
+        "id": 669,
+        "symbol": "SAIL",
+        "can_trade": true
+      },
+      {
+        "id": 697,
+        "symbol": "SAPIL",
+        "can_trade": true
+      },
+      {
+        "id": 451,
+        "symbol": "SARBTM",
+        "can_trade": true
+      },
+      {
+        "id": 192,
+        "symbol": "SHIVM",
+        "can_trade": true
+      },
+      {
+        "id": 362,
+        "symbol": "SONA",
+        "can_trade": true
+      },
+      {
+        "id": 690,
+        "symbol": "SOPL",
+        "can_trade": true
+      },
+      {
+        "id": 670,
+        "symbol": "SYPNL",
+        "can_trade": true
+      },
+      {
+        "id": 190,
+        "symbol": "UNL",
+        "can_trade": true
+      }
+    ],
+    "name": "Manufacturing",
+    "symbol": "MANUFACTURE",
+    "active": true,
+    "index": 23
+  },
+  {
+    "id": 10,
+    "stocks": [
+      {
+        "id": 138,
+        "symbol": "AIL",
+        "can_trade": false
+      },
+      {
+        "id": 127,
+        "symbol": "EIC",
+        "can_trade": false
+      },
+      {
+        "id": 139,
+        "symbol": "GIC",
+        "can_trade": false
+      },
+      {
+        "id": 261,
+        "symbol": "HEI",
+        "can_trade": true
+      },
+      {
+        "id": 125,
+        "symbol": "HGI",
+        "can_trade": false
+      },
+      {
+        "id": 132,
+        "symbol": "IGI",
+        "can_trade": true
+      },
+      {
+        "id": 289,
+        "symbol": "IGIL",
+        "can_trade": false
+      },
+      {
+        "id": 134,
+        "symbol": "LGIL",
+        "can_trade": false
+      },
+      {
+        "id": 123,
+        "symbol": "NICL",
+        "can_trade": true
+      },
+      {
+        "id": 129,
+        "symbol": "NIL",
+        "can_trade": true
+      },
+      {
+        "id": 137,
+        "symbol": "NLG",
+        "can_trade": true
+      },
+      {
+        "id": 641,
+        "symbol": "NMIC",
+        "can_trade": true
+      },
+      {
+        "id": 128,
+        "symbol": "PIC",
+        "can_trade": false
+      },
+      {
+        "id": 133,
+        "symbol": "PICL",
+        "can_trade": false
+      },
+      {
+        "id": 130,
+        "symbol": "PRIN",
+        "can_trade": true
+      },
+      {
+        "id": 124,
+        "symbol": "RBCL",
+        "can_trade": true
+      },
+      {
+        "id": 291,
+        "symbol": "SALICO",
+        "can_trade": true
+      },
+      {
+        "id": 140,
+        "symbol": "SGI",
+        "can_trade": false
+      },
+      {
+        "id": 278,
+        "symbol": "SGIC",
+        "can_trade": true
+      },
+      {
+        "id": 131,
+        "symbol": "SIC",
+        "can_trade": false
+      },
+      {
+        "id": 135,
+        "symbol": "SICL",
+        "can_trade": true
+      },
+      {
+        "id": 136,
+        "symbol": "SIL",
+        "can_trade": false
+      },
+      {
+        "id": 287,
+        "symbol": "SPIL",
+        "can_trade": true
+      },
+      {
+        "id": 297,
+        "symbol": "UAIL",
+        "can_trade": true
+      },
+      {
+        "id": 126,
+        "symbol": "UIC",
+        "can_trade": true
+      }
+    ],
+    "name": "NonLife",
+    "symbol": "NONLIFEINSU",
+    "active": true,
+    "index": 26
+  },
+  {
+    "id": 12,
+    "stocks": [
+      {
+        "id": 200,
+        "symbol": "BBC",
+        "can_trade": true
+      },
+      {
+        "id": 199,
+        "symbol": "STC",
+        "can_trade": true
+      }
+    ],
+    "name": "Tradings",
+    "symbol": "TRDIND",
+    "active": true,
+    "index": 28
+  },
+  {
+    "id": 2,
+    "stocks": [
+      {
+        "id": 36,
+        "symbol": "CORBL",
+        "can_trade": true
+      },
+      {
+        "id": 29,
+        "symbol": "EDBL",
+        "can_trade": true
+      },
+      {
+        "id": 33,
+        "symbol": "GBBL",
+        "can_trade": true
+      },
+      {
+        "id": 42,
+        "symbol": "GRDBL",
+        "can_trade": true
+      },
+      {
+        "id": 34,
+        "symbol": "JBBL",
+        "can_trade": true
+      },
+      {
+        "id": 35,
+        "symbol": "KRBL",
+        "can_trade": true
+      },
+      {
+        "id": 37,
+        "symbol": "KSBBL",
+        "can_trade": true
+      },
+      {
+        "id": 30,
+        "symbol": "LBBL",
+        "can_trade": true
+      },
+      {
+        "id": 31,
+        "symbol": "MDB",
+        "can_trade": true
+      },
+      {
+        "id": 32,
+        "symbol": "MLBL",
+        "can_trade": true
+      },
+      {
+        "id": 40,
+        "symbol": "MNBBL",
+        "can_trade": true
+      },
+      {
+        "id": 668,
+        "symbol": "MTBL",
+        "can_trade": true
+      },
+      {
+        "id": 28,
+        "symbol": "NABBC",
+        "can_trade": true
+      },
+      {
+        "id": 680,
+        "symbol": "SABBL",
+        "can_trade": true
+      },
+      {
+        "id": 38,
+        "symbol": "SADBL",
+        "can_trade": true
+      },
+      {
+        "id": 43,
+        "symbol": "SAPDBL",
+        "can_trade": true
+      },
+      {
+        "id": 44,
+        "symbol": "SHBL",
+        "can_trade": false
+      },
+      {
+        "id": 39,
+        "symbol": "SHINE",
+        "can_trade": true
+      },
+      {
+        "id": 41,
+        "symbol": "SINDU",
+        "can_trade": true
+      }
+    ],
+    "name": "Dev Banks",
+    "symbol": "DEVBANK",
+    "active": true,
+    "index": 22
+  },
+  {
+    "id": 14,
+    "stocks": [
+      {
+        "id": 631,
+        "symbol": "ACEDPO",
+        "can_trade": true
+      },
+      {
+        "id": 493,
+        "symbol": "ACLBSLP",
+        "can_trade": true
+      },
+      {
+        "id": 491,
+        "symbol": "ALBSLP",
+        "can_trade": true
+      },
+      {
+        "id": 544,
+        "symbol": "ALDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 584,
+        "symbol": "ALICLP",
+        "can_trade": true
+      },
+      {
+        "id": 462,
+        "symbol": "ANLBP",
+        "can_trade": true
+      },
+      {
+        "id": 554,
+        "symbol": "APEXPO",
+        "can_trade": true
+      },
+      {
+        "id": 570,
+        "symbol": "ARDBLPL",
+        "can_trade": true
+      },
+      {
+        "id": 466,
+        "symbol": "AVYANP",
+        "can_trade": true
+      },
+      {
+        "id": 599,
+        "symbol": "BBBLNP",
+        "can_trade": true
+      },
+      {
+        "id": 513,
+        "symbol": "BFCLPO",
+        "can_trade": true
+      },
+      {
+        "id": 626,
+        "symbol": "BFCPO",
+        "can_trade": true
+      },
+      {
+        "id": 542,
+        "symbol": "BGDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 602,
+        "symbol": "BLDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 461,
+        "symbol": "BPWP",
+        "can_trade": true
+      },
+      {
+        "id": 561,
+        "symbol": "BUDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 535,
+        "symbol": "CBBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 601,
+        "symbol": "CEDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 527,
+        "symbol": "CFCLPO",
+        "can_trade": true
+      },
+      {
+        "id": 459,
+        "symbol": "CITPO",
+        "can_trade": true
+      },
+      {
+        "id": 557,
+        "symbol": "CNDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 506,
+        "symbol": "CORBLP",
+        "can_trade": true
+      },
+      {
+        "id": 555,
+        "symbol": "CSDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 598,
+        "symbol": "CZBILPO",
+        "can_trade": true
+      },
+      {
+        "id": 577,
+        "symbol": "DDBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 586,
+        "symbol": "EBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 574,
+        "symbol": "EDBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 625,
+        "symbol": "EFLPO",
+        "can_trade": true
+      },
+      {
+        "id": 558,
+        "symbol": "EKBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 472,
+        "symbol": "ENLP",
+        "can_trade": true
+      },
+      {
+        "id": 521,
+        "symbol": "FMDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 479,
+        "symbol": "FOWADP",
+        "can_trade": true
+      },
+      {
+        "id": 547,
+        "symbol": "GABLPO",
+        "can_trade": true
+      },
+      {
+        "id": 569,
+        "symbol": "GBBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 595,
+        "symbol": "GBIMEP",
+        "can_trade": true
+      },
+      {
+        "id": 511,
+        "symbol": "GBLBSP",
+        "can_trade": true
+      },
+      {
+        "id": 607,
+        "symbol": "GFCLPO",
+        "can_trade": true
+      },
+      {
+        "id": 496,
+        "symbol": "GILBPO",
+        "can_trade": true
+      },
+      {
+        "id": 490,
+        "symbol": "GMFBSP",
+        "can_trade": true
+      },
+      {
+        "id": 573,
+        "symbol": "GMFILPO",
+        "can_trade": true
+      },
+      {
+        "id": 621,
+        "symbol": "GRANDP",
+        "can_trade": true
+      },
+      {
+        "id": 502,
+        "symbol": "GRDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 624,
+        "symbol": "GUFLPO",
+        "can_trade": true
+      },
+      {
+        "id": 575,
+        "symbol": "HAMAPO",
+        "can_trade": true
+      },
+      {
+        "id": 539,
+        "symbol": "HATHPO",
+        "can_trade": true
+      },
+      {
+        "id": 482,
+        "symbol": "HBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 534,
+        "symbol": "HEIP",
+        "can_trade": true
+      },
+      {
+        "id": 298,
+        "symbol": "HIDCLP",
+        "can_trade": true
+      },
+      {
+        "id": 524,
+        "symbol": "HLBSLP",
+        "can_trade": true
+      },
+      {
+        "id": 533,
+        "symbol": "HLIPO",
+        "can_trade": true
+      },
+      {
+        "id": 615,
+        "symbol": "ICFCPO",
+        "can_trade": true
+      },
+      {
+        "id": 613,
+        "symbol": "IDBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 480,
+        "symbol": "IGIPO",
+        "can_trade": true
+      },
+      {
+        "id": 488,
+        "symbol": "ILBSP",
+        "can_trade": true
+      },
+      {
+        "id": 460,
+        "symbol": "ILIP",
+        "can_trade": true
+      },
+      {
+        "id": 530,
+        "symbol": "INDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 541,
+        "symbol": "INDBPO",
+        "can_trade": true
+      },
+      {
+        "id": 463,
+        "symbol": "JALPAP",
+        "can_trade": true
+      },
+      {
+        "id": 591,
+        "symbol": "JBBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 477,
+        "symbol": "JBLBP",
+        "can_trade": true
+      },
+      {
+        "id": 632,
+        "symbol": "JFLPO",
+        "can_trade": true
+      },
+      {
+        "id": 562,
+        "symbol": "JHBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 518,
+        "symbol": "JSLBBP",
+        "can_trade": true
+      },
+      {
+        "id": 581,
+        "symbol": "KAFILPO",
+        "can_trade": true
+      },
+      {
+        "id": 453,
+        "symbol": "KBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 517,
+        "symbol": "KCDLP",
+        "can_trade": true
+      },
+      {
+        "id": 579,
+        "symbol": "KDBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 469,
+        "symbol": "KDLP",
+        "can_trade": true
+      },
+      {
+        "id": 526,
+        "symbol": "KKBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 497,
+        "symbol": "KLBSLP",
+        "can_trade": true
+      },
+      {
+        "id": 529,
+        "symbol": "KMCDBP",
+        "can_trade": true
+      },
+      {
+        "id": 500,
+        "symbol": "KRBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 528,
+        "symbol": "KSBBLP",
+        "can_trade": true
+      },
+      {
+        "id": 568,
+        "symbol": "LBBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 594,
+        "symbol": "LFCLPO",
+        "can_trade": true
+      },
+      {
+        "id": 536,
+        "symbol": "LICNPO",
+        "can_trade": true
+      },
+      {
+        "id": 559,
+        "symbol": "LLBSPO",
+        "can_trade": true
+      },
+      {
+        "id": 455,
+        "symbol": "LSLPO",
+        "can_trade": true
+      },
+      {
+        "id": 454,
+        "symbol": "LUBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 592,
+        "symbol": "MBBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 363,
+        "symbol": "MBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 456,
+        "symbol": "MDBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 576,
+        "symbol": "MDBPO",
+        "can_trade": true
+      },
+      {
+        "id": 501,
+        "symbol": "MEROPO",
+        "can_trade": true
+      },
+      {
+        "id": 495,
+        "symbol": "MFILPO",
+        "can_trade": true
+      },
+      {
+        "id": 597,
+        "symbol": "MFLPO",
+        "can_trade": true
+      },
+      {
+        "id": 476,
+        "symbol": "MKLBP",
+        "can_trade": true
+      },
+      {
+        "id": 532,
+        "symbol": "MLBBLP",
+        "can_trade": true
+      },
+      {
+        "id": 701,
+        "symbol": "MLBSLP",
+        "can_trade": true
+      },
+      {
+        "id": 473,
+        "symbol": "MLBSP",
+        "can_trade": true
+      },
+      {
+        "id": 523,
+        "symbol": "MMDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 510,
+        "symbol": "MMFDBP",
+        "can_trade": true
+      },
+      {
+        "id": 556,
+        "symbol": "MNBBLP",
+        "can_trade": true
+      },
+      {
+        "id": 498,
+        "symbol": "MPFLPO",
+        "can_trade": true
+      },
+      {
+        "id": 546,
+        "symbol": "MSBBLP",
+        "can_trade": true
+      },
+      {
+        "id": 478,
+        "symbol": "MSLBP",
+        "can_trade": true
+      },
+      {
+        "id": 471,
+        "symbol": "NABBCP",
+        "can_trade": true
+      },
+      {
+        "id": 609,
+        "symbol": "NABBPO",
+        "can_trade": true
+      },
+      {
+        "id": 494,
+        "symbol": "NADEPP",
+        "can_trade": true
+      },
+      {
+        "id": 457,
+        "symbol": "NBLP",
+        "can_trade": true
+      },
+      {
+        "id": 553,
+        "symbol": "NBSLPO",
+        "can_trade": true
+      },
+      {
+        "id": 596,
+        "symbol": "NCMPO",
+        "can_trade": true
+      },
+      {
+        "id": 618,
+        "symbol": "NEFLPO",
+        "can_trade": true
+      },
+      {
+        "id": 464,
+        "symbol": "NESDOP",
+        "can_trade": true
+      },
+      {
+        "id": 564,
+        "symbol": "NFSPO",
+        "can_trade": true
+      },
+      {
+        "id": 620,
+        "symbol": "NICAP",
+        "can_trade": true
+      },
+      {
+        "id": 484,
+        "symbol": "NICLBSLP",
+        "can_trade": true
+      },
+      {
+        "id": 537,
+        "symbol": "NICLPO",
+        "can_trade": true
+      },
+      {
+        "id": 572,
+        "symbol": "NILPO",
+        "can_trade": true
+      },
+      {
+        "id": 299,
+        "symbol": "NIMBPO",
+        "can_trade": true
+      },
+      {
+        "id": 545,
+        "symbol": "NLBBLP",
+        "can_trade": true
+      },
+      {
+        "id": 540,
+        "symbol": "NLGPO",
+        "can_trade": true
+      },
+      {
+        "id": 589,
+        "symbol": "NLICLP",
+        "can_trade": true
+      },
+      {
+        "id": 588,
+        "symbol": "NLICP",
+        "can_trade": true
+      },
+      {
+        "id": 522,
+        "symbol": "NMBMFP",
+        "can_trade": true
+      },
+      {
+        "id": 612,
+        "symbol": "NMBPO",
+        "can_trade": true
+      },
+      {
+        "id": 503,
+        "symbol": "NMFBSP",
+        "can_trade": true
+      },
+      {
+        "id": 614,
+        "symbol": "NNFCPO",
+        "can_trade": true
+      },
+      {
+        "id": 485,
+        "symbol": "NRICP",
+        "can_trade": true
+      },
+      {
+        "id": 622,
+        "symbol": "NSMPO",
+        "can_trade": true
+      },
+      {
+        "id": 549,
+        "symbol": "NUBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 604,
+        "symbol": "OFLPO",
+        "can_trade": true
+      },
+      {
+        "id": 548,
+        "symbol": "PADBLP",
+        "can_trade": true
+      },
+      {
+        "id": 442,
+        "symbol": "PBLD84",
+        "can_trade": true
+      },
+      {
+        "id": 481,
+        "symbol": "PCBLP",
+        "can_trade": true
+      },
+      {
+        "id": 560,
+        "symbol": "PFCPO",
+        "can_trade": true
+      },
+      {
+        "id": 565,
+        "symbol": "PFILPO",
+        "can_trade": true
+      },
+      {
+        "id": 619,
+        "symbol": "PFLBSP",
+        "can_trade": true
+      },
+      {
+        "id": 611,
+        "symbol": "PFLPO",
+        "can_trade": true
+      },
+      {
+        "id": 458,
+        "symbol": "PMLIP",
+        "can_trade": true
+      },
+      {
+        "id": 552,
+        "symbol": "PRDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 587,
+        "symbol": "PRINPO",
+        "can_trade": true
+      },
+      {
+        "id": 628,
+        "symbol": "PROFLP",
+        "can_trade": true
+      },
+      {
+        "id": 567,
+        "symbol": "PRVUPO",
+        "can_trade": true
+      },
+      {
+        "id": 610,
+        "symbol": "PSDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 516,
+        "symbol": "RBBBLP",
+        "can_trade": true
+      },
+      {
+        "id": 300,
+        "symbol": "RBCLPO",
+        "can_trade": true
+      },
+      {
+        "id": 593,
+        "symbol": "REDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 563,
+        "symbol": "RLFLPO",
+        "can_trade": true
+      },
+      {
+        "id": 504,
+        "symbol": "RSDCP",
+        "can_trade": true
+      },
+      {
+        "id": 487,
+        "symbol": "SABSLP",
+        "can_trade": true
+      },
+      {
+        "id": 531,
+        "symbol": "SADBLP",
+        "can_trade": true
+      },
+      {
+        "id": 514,
+        "symbol": "SAFLPO",
+        "can_trade": true
+      },
+      {
+        "id": 499,
+        "symbol": "SAJHAP",
+        "can_trade": true
+      },
+      {
+        "id": 571,
+        "symbol": "SALICOPO",
+        "can_trade": true
+      },
+      {
+        "id": 475,
+        "symbol": "SAMAJP",
+        "can_trade": true
+      },
+      {
+        "id": 486,
+        "symbol": "SAPDBLP",
+        "can_trade": true
+      },
+      {
+        "id": 627,
+        "symbol": "SBIPO",
+        "can_trade": true
+      },
+      {
+        "id": 616,
+        "symbol": "SBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 543,
+        "symbol": "SCBPO",
+        "can_trade": true
+      },
+      {
+        "id": 629,
+        "symbol": "SDBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 483,
+        "symbol": "SDLBSLP",
+        "can_trade": true
+      },
+      {
+        "id": 582,
+        "symbol": "SETIPO",
+        "can_trade": true
+      },
+      {
+        "id": 585,
+        "symbol": "SEWAPO",
+        "can_trade": true
+      },
+      {
+        "id": 630,
+        "symbol": "SFCLP",
+        "can_trade": true
+      },
+      {
+        "id": 578,
+        "symbol": "SFLPO",
+        "can_trade": true
+      },
+      {
+        "id": 470,
+        "symbol": "SGICP",
+        "can_trade": true
+      },
+      {
+        "id": 551,
+        "symbol": "SHINEP",
+        "can_trade": true
+      },
+      {
+        "id": 467,
+        "symbol": "SHLBP",
+        "can_trade": true
+      },
+      {
+        "id": 566,
+        "symbol": "SICLPO",
+        "can_trade": true
+      },
+      {
+        "id": 617,
+        "symbol": "SIFCPO",
+        "can_trade": true
+      },
+      {
+        "id": 590,
+        "symbol": "SJLICP",
+        "can_trade": true
+      },
+      {
+        "id": 550,
+        "symbol": "SKBBLP",
+        "can_trade": true
+      },
+      {
+        "id": 520,
+        "symbol": "SLBBLP",
+        "can_trade": true
+      },
+      {
+        "id": 492,
+        "symbol": "SLBSLPO",
+        "can_trade": true
+      },
+      {
+        "id": 505,
+        "symbol": "SMATAP",
+        "can_trade": true
+      },
+      {
+        "id": 507,
+        "symbol": "SMBPO",
+        "can_trade": true
+      },
+      {
+        "id": 489,
+        "symbol": "SMFBSP",
+        "can_trade": true
+      },
+      {
+        "id": 608,
+        "symbol": "SNMAPO",
+        "can_trade": true
+      },
+      {
+        "id": 600,
+        "symbol": "SODLBP",
+        "can_trade": true
+      },
+      {
+        "id": 512,
+        "symbol": "SPILPO",
+        "can_trade": true
+      },
+      {
+        "id": 474,
+        "symbol": "SRLIP",
+        "can_trade": true
+      },
+      {
+        "id": 580,
+        "symbol": "SUBBLP",
+        "can_trade": true
+      },
+      {
+        "id": 606,
+        "symbol": "SUPRMP",
+        "can_trade": true
+      },
+      {
+        "id": 623,
+        "symbol": "SWBBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 519,
+        "symbol": "SWMFPO",
+        "can_trade": true
+      },
+      {
+        "id": 605,
+        "symbol": "TBBLP",
+        "can_trade": true
+      },
+      {
+        "id": 538,
+        "symbol": "TDBLPO",
+        "can_trade": true
+      },
+      {
+        "id": 525,
+        "symbol": "UAILPO",
+        "can_trade": true
+      },
+      {
+        "id": 603,
+        "symbol": "UFCLPO",
+        "can_trade": true
+      },
+      {
+        "id": 583,
+        "symbol": "UFILPO",
+        "can_trade": true
+      },
+      {
+        "id": 465,
+        "symbol": "ULBSLPO",
+        "can_trade": true
+      },
+      {
+        "id": 468,
+        "symbol": "UNLBP",
+        "can_trade": true
+      },
+      {
+        "id": 508,
+        "symbol": "USLBP",
+        "can_trade": true
+      },
+      {
+        "id": 515,
+        "symbol": "VLBSPO",
+        "can_trade": true
+      },
+      {
+        "id": 509,
+        "symbol": "WNLBP",
+        "can_trade": true
+      }
+    ],
+    "name": "Promoter",
+    "symbol": "PROMOTER",
+    "active": true,
+    "index": 35
+  },
+  {
+    "id": 15,
+    "stocks": [
+      {
+        "id": 433,
+        "symbol": "10NICD208586",
+        "can_trade": true
+      },
+      {
+        "id": 439,
+        "symbol": "8NIB2078",
+        "can_trade": true
+      },
+      {
+        "id": 440,
+        "symbol": "9CCBL87",
+        "can_trade": true
+      },
+      {
+        "id": 405,
+        "symbol": "9%CSB82",
+        "can_trade": true
+      },
+      {
+        "id": 393,
+        "symbol": "9JBBB87",
+        "can_trade": true
+      },
+      {
+        "id": 394,
+        "symbol": "ADBLB86",
+        "can_trade": true
+      },
+      {
+        "id": 418,
+        "symbol": "ADBLD83",
+        "can_trade": true
+      },
+      {
+        "id": 410,
+        "symbol": "BOKD86",
+        "can_trade": true
+      },
+      {
+        "id": 714,
+        "symbol": "BOKD86KA",
+        "can_trade": true
+      },
+      {
+        "id": 388,
+        "symbol": "CBLD88",
+        "can_trade": true
+      },
+      {
+        "id": 385,
+        "symbol": "CCBD88",
+        "can_trade": true
+      },
+      {
+        "id": 416,
+        "symbol": "CIZBD86",
+        "can_trade": true
+      },
+      {
+        "id": 371,
+        "symbol": "CIZBD90",
+        "can_trade": true
+      },
+      {
+        "id": 372,
+        "symbol": "CSB2084",
+        "can_trade": true
+      },
+      {
+        "id": 438,
+        "symbol": "EBLD2078",
+        "can_trade": true
+      },
+      {
+        "id": 379,
+        "symbol": "EBLD85",
+        "can_trade": true
+      },
+      {
+        "id": 387,
+        "symbol": "EBLD86",
+        "can_trade": true
+      },
+      {
+        "id": 711,
+        "symbol": "EBLD91",
+        "can_trade": true
+      },
+      {
+        "id": 375,
+        "symbol": "EBLEB89",
+        "can_trade": true
+      },
+      {
+        "id": 389,
+        "symbol": "GBBD85",
+        "can_trade": true
+      },
+      {
+        "id": 432,
+        "symbol": "GBD80/81",
+        "can_trade": true
+      },
+      {
+        "id": 374,
+        "symbol": "GBILD84/85",
+        "can_trade": true
+      },
+      {
+        "id": 403,
+        "symbol": "GBILD86/87",
+        "can_trade": true
+      },
+      {
+        "id": 415,
+        "symbol": "GWFD83",
+        "can_trade": true
+      },
+      {
+        "id": 377,
+        "symbol": "HBLB86",
+        "can_trade": true
+      },
+      {
+        "id": 427,
+        "symbol": "HBLD83",
+        "can_trade": true
+      },
+      {
+        "id": 715,
+        "symbol": "HBLD86",
+        "can_trade": true
+      },
+      {
+        "id": 417,
+        "symbol": "ICFCD83",
+        "can_trade": true
+      },
+      {
+        "id": 706,
+        "symbol": "ICFCD89",
+        "can_trade": true
+      },
+      {
+        "id": 421,
+        "symbol": "KBLD86",
+        "can_trade": true
+      },
+      {
+        "id": 378,
+        "symbol": "KBLD89",
+        "can_trade": true
+      },
+      {
+        "id": 370,
+        "symbol": "KBLD90",
+        "can_trade": true
+      },
+      {
+        "id": 408,
+        "symbol": "KSBBLD2087",
+        "can_trade": true
+      },
+      {
+        "id": 365,
+        "symbol": "LBBLD89",
+        "can_trade": true
+      },
+      {
+        "id": 423,
+        "symbol": "LBLD86",
+        "can_trade": true
+      },
+      {
+        "id": 392,
+        "symbol": "LBLD88",
+        "can_trade": true
+      },
+      {
+        "id": 710,
+        "symbol": "LSD92",
+        "can_trade": true
+      },
+      {
+        "id": 426,
+        "symbol": "MBLD2085",
+        "can_trade": true
+      },
+      {
+        "id": 391,
+        "symbol": "MBLD87",
+        "can_trade": true
+      },
+      {
+        "id": 406,
+        "symbol": "MFLD85",
+        "can_trade": true
+      },
+      {
+        "id": 366,
+        "symbol": "MLBLD89",
+        "can_trade": true
+      },
+      {
+        "id": 390,
+        "symbol": "MND84/85",
+        "can_trade": true
+      },
+      {
+        "id": 713,
+        "symbol": "NABILD2089",
+        "can_trade": true
+      },
+      {
+        "id": 716,
+        "symbol": "NABILD87",
+        "can_trade": true
+      },
+      {
+        "id": 429,
+        "symbol": "NBBD2085",
+        "can_trade": true
+      },
+      {
+        "id": 414,
+        "symbol": "NBLD82",
+        "can_trade": true
+      },
+      {
+        "id": 395,
+        "symbol": "NBLD85",
+        "can_trade": true
+      },
+      {
+        "id": 441,
+        "symbol": "NBLD87",
+        "can_trade": true
+      },
+      {
+        "id": 407,
+        "symbol": "NCCD86",
+        "can_trade": true
+      },
+      {
+        "id": 428,
+        "symbol": "NIBD2082",
+        "can_trade": true
+      },
+      {
+        "id": 412,
+        "symbol": "NIBD84",
+        "can_trade": true
+      },
+      {
+        "id": 437,
+        "symbol": "NICAD8182",
+        "can_trade": true
+      },
+      {
+        "id": 436,
+        "symbol": "NICAD8283",
+        "can_trade": true
+      },
+      {
+        "id": 425,
+        "symbol": "NICD83/84",
+        "can_trade": true
+      },
+      {
+        "id": 396,
+        "symbol": "NICD88",
+        "can_trade": true
+      },
+      {
+        "id": 376,
+        "symbol": "NIFRAUR85/86",
+        "can_trade": true
+      },
+      {
+        "id": 705,
+        "symbol": "NIMBD90",
+        "can_trade": true
+      },
+      {
+        "id": 431,
+        "symbol": "NMBD2085",
+        "can_trade": true
+      },
+      {
+        "id": 398,
+        "symbol": "NMBD87/88",
+        "can_trade": true
+      },
+      {
+        "id": 367,
+        "symbol": "NMBD89/90",
+        "can_trade": true
+      },
+      {
+        "id": 704,
+        "symbol": "NMBEB92/93",
+        "can_trade": true
+      },
+      {
+        "id": 384,
+        "symbol": "NMBUR93/94",
+        "can_trade": true
+      },
+      {
+        "id": 404,
+        "symbol": "PBD85",
+        "can_trade": true
+      },
+      {
+        "id": 386,
+        "symbol": "PBD88",
+        "can_trade": true
+      },
+      {
+        "id": 702,
+        "symbol": "PBD93",
+        "can_trade": true
+      },
+      {
+        "id": 422,
+        "symbol": "PBLD86",
+        "can_trade": true
+      },
+      {
+        "id": 401,
+        "symbol": "PBLD87",
+        "can_trade": true
+      },
+      {
+        "id": 383,
+        "symbol": "PDD84",
+        "can_trade": true
+      },
+      {
+        "id": 400,
+        "symbol": "RBBD83",
+        "can_trade": true
+      },
+      {
+        "id": 435,
+        "symbol": "SAND2085",
+        "can_trade": true
+      },
+      {
+        "id": 409,
+        "symbol": "SBD87",
+        "can_trade": true
+      },
+      {
+        "id": 381,
+        "symbol": "SBD89",
+        "can_trade": true
+      },
+      {
+        "id": 420,
+        "symbol": "SBIBD86",
+        "can_trade": true
+      },
+      {
+        "id": 380,
+        "symbol": "SBID83",
+        "can_trade": true
+      },
+      {
+        "id": 364,
+        "symbol": "SBID89",
+        "can_trade": true
+      },
+      {
+        "id": 434,
+        "symbol": "SBLD2082",
+        "can_trade": true
+      },
+      {
+        "id": 712,
+        "symbol": "SBLD2091",
+        "can_trade": true
+      },
+      {
+        "id": 424,
+        "symbol": "SBLD83",
+        "can_trade": true
+      },
+      {
+        "id": 411,
+        "symbol": "SBLD84",
+        "can_trade": true
+      },
+      {
+        "id": 382,
+        "symbol": "SBLD89",
+        "can_trade": true
+      },
+      {
+        "id": 368,
+        "symbol": "SCBD",
+        "can_trade": true
+      },
+      {
+        "id": 397,
+        "symbol": "SDBD87",
+        "can_trade": true
+      },
+      {
+        "id": 419,
+        "symbol": "SRBLD83",
+        "can_trade": true
+      },
+      {
+        "id": 430,
+        "symbol": "SRD80",
+        "can_trade": true
+      }
+    ],
+    "name": "Debenture",
+    "symbol": "DEBENTURE",
+    "active": true,
+    "index": 36
+  },
+  {
+    "id": 13,
+    "stocks": [
+      {
+        "id": 312,
+        "symbol": "C30MF",
+        "can_trade": true
+      },
+      {
+        "id": 226,
+        "symbol": "CMF1",
+        "can_trade": true
+      },
+      {
+        "id": 223,
+        "symbol": "CMF2",
+        "can_trade": true
+      },
+      {
+        "id": 659,
+        "symbol": "CSBY",
+        "can_trade": true
+      },
+      {
+        "id": 683,
+        "symbol": "CSY",
+        "can_trade": true
+      },
+      {
+        "id": 684,
+        "symbol": "GASY",
+        "can_trade": true
+      },
+      {
+        "id": 660,
+        "symbol": "GBIMESY2",
+        "can_trade": true
+      },
+      {
+        "id": 338,
+        "symbol": "GIBF1",
+        "can_trade": true
+      },
+      {
+        "id": 234,
+        "symbol": "GIMES1",
+        "can_trade": true
+      },
+      {
+        "id": 639,
+        "symbol": "GSY",
+        "can_trade": true
+      },
+      {
+        "id": 358,
+        "symbol": "H8020",
+        "can_trade": true
+      },
+      {
+        "id": 664,
+        "symbol": "HLICF",
+        "can_trade": true
+      },
+      {
+        "id": 337,
+        "symbol": "KDBY",
+        "can_trade": true
+      },
+      {
+        "id": 217,
+        "symbol": "KEF",
+        "can_trade": true
+      },
+      {
+        "id": 347,
+        "symbol": "KSLY",
+        "can_trade": true
+      },
+      {
+        "id": 348,
+        "symbol": "KSY",
+        "can_trade": true
+      },
+      {
+        "id": 230,
+        "symbol": "LEMF",
+        "can_trade": true
+      },
+      {
+        "id": 700,
+        "symbol": "LSH12",
+        "can_trade": true
+      },
+      {
+        "id": 219,
+        "symbol": "LUK",
+        "can_trade": true
+      },
+      {
+        "id": 357,
+        "symbol": "LVF1",
+        "can_trade": true
+      },
+      {
+        "id": 332,
+        "symbol": "LVF2",
+        "can_trade": true
+      },
+      {
+        "id": 646,
+        "symbol": "MBLEF",
+        "can_trade": true
+      },
+      {
+        "id": 212,
+        "symbol": "MMF1",
+        "can_trade": true
+      },
+      {
+        "id": 638,
+        "symbol": "MNMF1",
+        "can_trade": true
+      },
+      {
+        "id": 708,
+        "symbol": "MNMF2",
+        "can_trade": true
+      },
+      {
+        "id": 681,
+        "symbol": "MSY",
+        "can_trade": true
+      },
+      {
+        "id": 353,
+        "symbol": "NADDF",
+        "can_trade": true
+      },
+      {
+        "id": 355,
+        "symbol": "NBF1",
+        "can_trade": true
+      },
+      {
+        "id": 225,
+        "symbol": "NBF2",
+        "can_trade": true
+      },
+      {
+        "id": 211,
+        "symbol": "NBF3",
+        "can_trade": true
+      },
+      {
+        "id": 232,
+        "symbol": "NEF",
+        "can_trade": true
+      },
+      {
+        "id": 346,
+        "symbol": "NFCF",
+        "can_trade": true
+      },
+      {
+        "id": 663,
+        "symbol": "NI 31",
+        "can_trade": true
+      },
+      {
+        "id": 301,
+        "symbol": "NIBLGF",
+        "can_trade": true
+      },
+      {
+        "id": 231,
+        "symbol": "NIBLPF",
+        "can_trade": true
+      },
+      {
+        "id": 344,
+        "symbol": "NIBLSF",
+        "can_trade": true
+      },
+      {
+        "id": 450,
+        "symbol": "NIBLSTF",
+        "can_trade": true
+      },
+      {
+        "id": 345,
+        "symbol": "NIBSF1",
+        "can_trade": true
+      },
+      {
+        "id": 210,
+        "symbol": "NIBSF2",
+        "can_trade": true
+      },
+      {
+        "id": 222,
+        "symbol": "NICBF",
+        "can_trade": true
+      },
+      {
+        "id": 662,
+        "symbol": "NICELIS",
+        "can_trade": true
+      },
+      {
+        "id": 709,
+        "symbol": "NICEOF",
+        "can_trade": true
+      },
+      {
+        "id": 264,
+        "symbol": "NICFC",
+        "can_trade": true
+      },
+      {
+        "id": 227,
+        "symbol": "NICGF",
+        "can_trade": true
+      },
+      {
+        "id": 343,
+        "symbol": "NICGF2",
+        "can_trade": true
+      },
+      {
+        "id": 214,
+        "symbol": "NICSF",
+        "can_trade": true
+      },
+      {
+        "id": 221,
+        "symbol": "NMB50",
+        "can_trade": true
+      },
+      {
+        "id": 233,
+        "symbol": "NMBHF1",
+        "can_trade": true
+      },
+      {
+        "id": 645,
+        "symbol": "NMBHF2",
+        "can_trade": true
+      },
+      {
+        "id": 342,
+        "symbol": "NMBSBF",
+        "can_trade": true
+      },
+      {
+        "id": 335,
+        "symbol": "NMBSF1",
+        "can_trade": true
+      },
+      {
+        "id": 336,
+        "symbol": "NSIF2",
+        "can_trade": true
+      },
+      {
+        "id": 691,
+        "symbol": "NSY",
+        "can_trade": true
+      },
+      {
+        "id": 296,
+        "symbol": "PRSF",
+        "can_trade": true
+      },
+      {
+        "id": 215,
+        "symbol": "PSF",
+        "can_trade": true
+      },
+      {
+        "id": 657,
+        "symbol": "PSIS",
+        "can_trade": true
+      },
+      {
+        "id": 671,
+        "symbol": "RBBF40",
+        "can_trade": true
+      },
+      {
+        "id": 213,
+        "symbol": "RMF1",
+        "can_trade": true
+      },
+      {
+        "id": 313,
+        "symbol": "RMF2",
+        "can_trade": true
+      },
+      {
+        "id": 647,
+        "symbol": "RSY",
+        "can_trade": true
+      },
+      {
+        "id": 699,
+        "symbol": "RSY2",
+        "can_trade": true
+      },
+      {
+        "id": 228,
+        "symbol": "SAEF",
+        "can_trade": true
+      },
+      {
+        "id": 698,
+        "symbol": "SAEF2",
+        "can_trade": true
+      },
+      {
+        "id": 294,
+        "symbol": "SAGF",
+        "can_trade": true
+      },
+      {
+        "id": 216,
+        "symbol": "SBCF",
+        "can_trade": true
+      },
+      {
+        "id": 229,
+        "symbol": "SEF",
+        "can_trade": true
+      },
+      {
+        "id": 695,
+        "symbol": "SEF2",
+        "can_trade": true
+      },
+      {
+        "id": 354,
+        "symbol": "SEOS",
+        "can_trade": true
+      },
+      {
+        "id": 333,
+        "symbol": "SFEF",
+        "can_trade": true
+      },
+      {
+        "id": 341,
+        "symbol": "SFF",
+        "can_trade": true
+      },
+      {
+        "id": 220,
+        "symbol": "SFMF",
+        "can_trade": true
+      },
+      {
+        "id": 356,
+        "symbol": "SIGS1",
+        "can_trade": true
+      },
+      {
+        "id": 224,
+        "symbol": "SIGS2",
+        "can_trade": true
+      },
+      {
+        "id": 304,
+        "symbol": "SIGS3",
+        "can_trade": true
+      },
+      {
+        "id": 218,
+        "symbol": "SLCF",
+        "can_trade": true
+      },
+      {
+        "id": 340,
+        "symbol": "SLK",
+        "can_trade": true
+      },
+      {
+        "id": 339,
+        "symbol": "SSIS",
+        "can_trade": true
+      }
+    ],
+    "name": "Mutual Fund",
+    "symbol": "MUTUAL",
+    "active": true,
+    "index": 33
+  }
+]
