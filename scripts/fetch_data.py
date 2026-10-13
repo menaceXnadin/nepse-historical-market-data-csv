@@ -8,14 +8,26 @@ import tempfile
 from datetime import datetime, timedelta, timezone
 import os
 import glob
+import sys
 import pandas as pd
 
+# Progress lines use symbols like ✓; without this, Windows consoles and
+# redirected output fall back to cp1252 and the print raises.
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
-log = logging.getLogger("asyncmain_incremental")
+log = logging.getLogger("fetch_data")
+
+# Every path below is relative to the repository root, so run from there no
+# matter where the script is invoked from.
+os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+# Cached copy of the traded-symbol universe, used when the sector API is down.
+SECTOR_CACHE = 'data/sector.json'
 
 # Refuse to overwrite data/quarterly_reports.csv unless the new fetch has at
-# least this fraction of the rows the existing file already holds. See
-# docs/pipeline-audit.md issue 4.
+# least this fraction of the rows the existing file already holds.
 MIN_REPORT_COVERAGE = 0.9
 
 os.makedirs('data/stock/adjusted', exist_ok=True)
@@ -249,11 +261,7 @@ async def fetch_and_save_incremental(symbol_name, folder_type, folder, is_adjust
                         combined_df = combined_df.sort_values('time_sort')
                         combined_df = combined_df.drop(columns=['time_sort'])
                         
-                        # Atomically replace the file. NOTE: this rewrites the whole CSV to add one
-                        # row, which under Git LFS makes the entire file a new blob
-                        # (~60 MB uploaded per run across ~1,073 files). That is
-                        # the root cause of the 7.1 GB LFS store; see
-                        # docs/pipeline-audit.md issue 2.
+                        # Atomically replace the file.
                         atomic_write_csv(file_path, lambda p: combined_df.to_csv(p, index=False))
                         
                         print(f"✓ {symbol_name} ({folder_type}/{folder}) - Added {new_data_count} new rows (total: {len(combined_df)})")
@@ -441,8 +449,8 @@ async def fetch_all_quarterly_reports():
 
 async def load_sector_data():
     """
-    Load sector data from API, save to sector.json, and return data.
-    Falls back to local sector.json if API fails.
+    Load sector data from API, save to data/sector.json, and return data.
+    Falls back to the cached copy if API fails.
     """
     api_url = "https://chukul.com/api/sector/"
     
@@ -456,11 +464,11 @@ async def load_sector_data():
                 
                 # Validate that we got proper data
                 if isinstance(stock_data, list) and len(stock_data) > 0:
-                    # Save to sector.json for future fallback
-                    with open('sector.json', 'w', encoding='utf-8') as f:
+                    # Save to data/sector.json for future fallback
+                    with open(SECTOR_CACHE, 'w', encoding='utf-8') as f:
                         json.dump(stock_data, f, indent=2, ensure_ascii=False)
                     
-                    print(f"✓ Fetched {len(stock_data)} sectors from API and saved to sector.json")
+                    print(f"✓ Fetched {len(stock_data)} sectors from API and saved to {SECTOR_CACHE}")
                     return stock_data
                 else:
                     print("⚠ API response format unexpected, falling back to local file...")
@@ -470,16 +478,16 @@ async def load_sector_data():
                 raise ValueError(f"API returned status {response.status_code}")
                 
     except Exception as e:
-        print(f"⚠ Failed to fetch from API ({e}), falling back to local sector.json...")
+        print(f"⚠ Failed to fetch from API ({e}), falling back to local {SECTOR_CACHE}...")
         
         # Fallback to local file
         try:
-            with open('sector.json', 'r', encoding='utf-8') as f:
+            with open(SECTOR_CACHE, 'r', encoding='utf-8') as f:
                 stock_data = json.load(f)
-            print(f"✓ Loaded {len(stock_data)} sectors from local sector.json")
+            print(f"✓ Loaded {len(stock_data)} sectors from local {SECTOR_CACHE}")
             return stock_data
         except Exception as fallback_error:
-            print(f"✗ Failed to load local sector.json: {fallback_error}")
+            print(f"✗ Failed to load local {SECTOR_CACHE}: {fallback_error}")
             raise
 
 

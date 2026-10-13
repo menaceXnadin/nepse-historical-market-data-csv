@@ -26,11 +26,6 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0  # Full history for proper git operations
-        # CRITICAL: without lfs:true every data/*.csv checks out as a 3-line
-        # pointer stub. get_last_fetched_date() then finds no 'time' column,
-        # returns None, and the script takes the full-refetch branch for all
-        # ~1,312 series. See docs/pipeline-audit.md issue 7.
-        lfs: true
     
     - name: Skip non-trading days
       run: |
@@ -62,7 +57,7 @@ jobs:
       if: steps.tradingday.outputs.skipped != 'true'
       run: |
         echo "Starting NEPSE data fetch..."
-        python asyncmain_incremental.py
+        python scripts/fetch_data.py
         echo "Data fetch completed!"
     
     - name: Check for changes

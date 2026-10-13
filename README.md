@@ -1,37 +1,84 @@
-# NEPSE Historical Market Data CSV
+# NEPSE Historical Market Data (CSV)
 
-This repository contains historical market data for the Nepal Stock Exchange (NEPSE), provided in CSV format. The data includes daily price information for individual stocks, market indices, and sub-indices.
+Daily price history for every traded stock, index and sub-index on the Nepal
+Stock Exchange (NEPSE), plus company quarterly reports. Updated automatically
+every evening by GitHub Actions.
 
-## Data Structure
+| | |
+|---|---|
+| Stocks | 519 symbols, adjusted and unadjusted |
+| Indices | NEPSE, FLOAT, SENSITIVE, SENFLOAT |
+| Sub-indices | 13 sector indices (BANKING, HYDROPOWER, …) |
+| Quarterly reports | ~6,600 rows, fiscal years 073/074 onward |
+| History | NEPSE index from 1997; most stocks from their listing date |
+| Update | Daily at 12:00 UTC (5:45 PM NPT), skipped on Saturdays |
 
-The data is organized in the following directory structure:
+## Layout
 
-- `data/`
-  - `index/`
-    - `adjusted/`: Adjusted historical data for main indices (e.g., NEPSE, FLOAT, SENSITIVE)
-    - `unadjusted/`: Unadjusted historical data for main indices
-  - `stock/`
-    - `adjusted/`: Adjusted historical data for individual stocks
-    - `unadjusted/`: Unadjusted historical data for individual stocks
-  - `subindices/`
-    - `adjusted/`: Adjusted historical data for sub-indices (e.g., BANKING, FINANCE, etc.)
-    - `unadjusted/`: Unadjusted historical data for sub-indices
+```
+data/
+├── stock/
+│   ├── adjusted/        NABIL_adjusted.csv, …
+│   └── unadjusted/      NABIL_unadjusted.csv, …
+├── index/
+│   ├── adjusted/
+│   └── unadjusted/
+├── subindices/
+│   ├── adjusted/
+│   └── unadjusted/
+├── quarterly_reports.csv
+└── sector.json          symbol → sector universe used by the fetcher
+```
 
-## File Naming Convention
+Files are named `{SYMBOL}_{adjusted|unadjusted}.csv`. A `/` in a symbol is
+written as `_` (`GBD80/81` → `GBD80_81`).
 
-Files are named in the format: `{SYMBOL}_{type}.csv`
+## Price files
 
-- `SYMBOL`: Stock symbol, index name, or sub-index name
-- `type`: Either "adjusted" or "unadjusted"
+```csv
+time,symbol,open,close,high,low,volume,category
+2026-10-13,NEPSE,2597.93,2599.93,2600.95,2589.36,4736926409,index
+```
 
-## Usage
+| Column | Description |
+|---|---|
+| `time` | Trading date, `YYYY-MM-DD` |
+| `symbol` | Stock, index or sub-index symbol |
+| `open`, `high`, `low`, `close` | Prices in NPR (index points for indices) |
+| `volume` | Shares traded; **for indices this is turnover in NPR** |
+| `category` | `stock`, `index` or `subindex` |
 
-You can use these CSV files for analysis, backtesting trading strategies, or any other financial data processing needs. The data is historical and can be loaded into pandas, Excel, or other data analysis tools.
+**Adjusted** prices are corrected for bonus shares, rights and splits, so they
+are comparable across time. **Unadjusted** prices are what actually traded on
+the day. Use adjusted for returns and backtests.
 
-## Data Source
+See [docs/data-schema.md](docs/data-schema.md) for the quarterly report columns
+and known data-quality caveats.
 
-The data is sourced from NEPSE official records. Please note that historical data may be subject to adjustments for events like stock splits, dividends, etc. The "adjusted" versions account for these adjustments.
+## Quick start
 
-## Contributing
+```python
+import pandas as pd
 
-If you have additional data or improvements, feel free to contribute via pull requests.
+base = "https://raw.githubusercontent.com/menaceXnadin/nepse-historical-market-data-csv/master/data"
+nepse = pd.read_csv(f"{base}/index/adjusted/NEPSE_adjusted.csv", parse_dates=["time"])
+nabil = pd.read_csv(f"{base}/stock/adjusted/NABIL_adjusted.csv", parse_dates=["time"])
+```
+
+## Sources
+
+- Daily prices: [ShareHub Nepal](https://sharehubnepal.com) candle-chart API
+- Quarterly reports and sector list: [Chukul](https://chukul.com)
+
+This is an unofficial mirror, not data published by NEPSE itself. Check
+anything important against an official source.
+
+## Updating it yourself
+
+```bash
+pip install -r requirements.txt
+python scripts/fetch_data.py
+```
+
+The fetcher is incremental: it reads the last date in each CSV and only
+requests newer bars, so a run on an up-to-date checkout takes a few minutes.
