@@ -1021,6 +1021,11 @@
         "can_trade": true
       },
       {
+        "id": 722,
+        "symbol": "HIMHL",
+        "can_trade": true
+      },
+      {
         "id": 661,
         "symbol": "HIMSTAR",
         "can_trade": true
