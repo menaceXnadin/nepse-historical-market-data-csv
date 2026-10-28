@@ -3194,6 +3194,11 @@
         "can_trade": true
       },
       {
+        "id": 724,
+        "symbol": "CS50",
+        "can_trade": true
+      },
+      {
         "id": 659,
         "symbol": "CSBY",
         "can_trade": true
