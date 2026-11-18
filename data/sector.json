@@ -866,6 +866,11 @@
     "id": 5,
     "stocks": [
       {
+        "id": 726,
+        "symbol": "AEL",
+        "can_trade": true
+      },
+      {
         "id": 270,
         "symbol": "AHL",
         "can_trade": true
@@ -1472,6 +1477,11 @@
       {
         "id": 191,
         "symbol": "HDL",
+        "can_trade": true
+      },
+      {
+        "id": 725,
+        "symbol": "KPL",
         "can_trade": true
       },
       {
