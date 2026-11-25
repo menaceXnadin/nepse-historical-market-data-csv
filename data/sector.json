@@ -3354,6 +3354,11 @@
         "can_trade": true
       },
       {
+        "id": 727,
+        "symbol": "NGF",
+        "can_trade": true
+      },
+      {
         "id": 663,
         "symbol": "NI 31",
         "can_trade": true
